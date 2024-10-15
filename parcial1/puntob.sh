@@ -55,8 +55,16 @@ sudo fdisk -l /dev/sdc
 sudo mkfs.ext2 /dev/sdc1
 sudo mkfs.ext3 /dev/sdc2
 sudo mkfs.ext4 /dev/sdc3
-sudo mkfs.ext4 /dev/sdc4
+sudo mkfs.ext /dev/sdc4
+
+sudo mkdir -p /mnt/disco/{sdc1,sdc2,sdc3,sdc4}
+
+df -h
+
+sudo mount /dev/sdc1 /mnt/disco/sdc1
+sudo mount /dev/sdc2 /mnt/disco/sdc2
+sudo mount /dev/sdc3 /mnt/disco/sdc3
+sudo mount /dev/sdc4 /mnt/disco/sdc4
 
 
-
-
+df -h
