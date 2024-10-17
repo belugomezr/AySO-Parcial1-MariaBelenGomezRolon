@@ -1,4 +1,8 @@
 sudo adduser programadores
 sudo adduser tester
 sudo adduser analistas
-sudo adduser disenadores 
+sudo adduser disenadores
+
+
+sudo chmod 750 home/vagrant/AySO-Parcial1-MariaBelenGomezRolon/parcial1/Examenes-UTN/alumno_1
+
